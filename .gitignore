@@ -23,3 +23,12 @@ __pycache__/
 *.log
 .env
 .env.*
+
+# goocr native build artifacts
+test/stub/libocr.so
+test/stub/libocr.so.*
+test/stub/libocr.dylib
+test/stub/libocr.*.dylib
+test/stub/ocr
+test/stub/ocr.exe
+*.test
